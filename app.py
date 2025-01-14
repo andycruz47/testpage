@@ -5,7 +5,8 @@ def agregar_fuente_a_n8n(url):
     """
     Envía una URL al webhook de n8n.
     """
-    webhook_url = "https://n8n.andycruzh.com/webhook-test/fb713243-ebcf-49ca-9c1c-a41576b90954"
+    # webhook_url = "https://n8n.andycruzh.com/webhook-test/fb713243-ebcf-49ca-9c1c-a41576b90954"
+    webhook_url = "https://n8n.andycruzh.com/webhook/fb713243-ebcf-49ca-9c1c-a41576b90954"
     try:
         response = requests.post(webhook_url, json={"url": url})
         
